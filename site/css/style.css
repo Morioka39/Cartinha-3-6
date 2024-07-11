@@ -1,0 +1,94 @@
+.fundo-home {
+    background-repeat: no-repeat;
+    background-size: 199em;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(/site/image/fundo-rosa-porta.png);
+    box-sizing: border-box;
+}
+
+.fundo-home .home{
+    display: flex;
+    justify-content: space-evenly ;   
+    align-items: center;
+    height: 78em;  
+}
+
+img .portas{
+    height: 29em;
+    cursor: pointer; 
+}
+
+
+.home-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video{
+    width: 654px;
+}
+
+.botao-voltar{
+    background-color: rgb(34, 32, 32);
+    width: 200px;
+    height: 70px;
+    display: flex;
+}
+
+a{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    width: 198px;
+    text-align: center;
+    padding-top: 19px;
+}
+
+.fundo-principal{
+    background-image: url(/site/image/naruto-sennin.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'naruto', 'times';
+   
+}
+
+@font-face {
+    font-family: "naruto";
+    src: url('/site/font-family/njnaruto.ttf') format(truetype);
+}
+
+.home-principal div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 55px;
+    color: #fff;
+    width: 600px;
+    height: 90px;
+    font-size: 35px;
+    word-spacing: 10px;
+   background-color: rgb(255, 156, 25);
+   border-radius: 45px;
+}
+
+.home-principal div a:hover{
+    background: linear-gradient(rgb(250, 205, 6), rgb(236, 82, 62));
+    color: #000;
+}
+div #fundo-botoes-naruto{
+    background: linear-gradient( #57b30c, #509b13);
+    height: 300px;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius:  300px 0px 300px;
+}
+
+.home-principal img{
+    width: 700px;
+    padding: 10px;
+    padding-top: 20px;
+}
+

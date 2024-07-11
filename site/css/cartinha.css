@@ -1,0 +1,69 @@
+body{
+    background-image: url(/site/image/fundo-quadriculado.png);
+    display: flex;
+    justify-content: center;
+}
+
+.capa{
+    background-color: aliceblue;
+    width: 125em;
+    display: flex;
+    padding: 60px;
+    border-radius: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.palavras-iniciais{
+    background-color: aliceblue;
+    width: 50em;
+    height: 100px;
+    margin: 70px auto 0;
+    text-align: center;
+    font-size: 30px;
+}
+.seta{
+    display: inline-block; 
+}
+ 
+.left{
+    margin-left: 30px;
+}
+
+.right{
+    margin-left: 110em;
+}
+
+.carta{
+    background-color: rgb(255, 253, 253);
+    height: 50em;
+    width: 100em;
+    font-size: 21px;
+    margin: 20px 0px 40px 0px;
+}
+
+.fundo-carta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 136em;
+}
+
+.scroll{
+    overflow-y: scroll;
+    
+}
+
+.foto-nossa img{
+    width: 600px;
+}
+
+audio::-webkit-media-controls-panel{
+    background-color: rgb(240, 240, 67);
+}
+
+audio{
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+}
